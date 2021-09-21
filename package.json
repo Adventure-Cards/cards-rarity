@@ -1,14 +1,13 @@
 {
-  "name": "typescript-boilerplate-2021",
-  "version": "0.4.2",
-  "description": "Boilerplate for TypeScript projects (Node.js and browser modules)",
-  "author": "Chris Hager <chris@linuxuser.at>",
-  "repository": "https://github.com/metachris/typescript-boilerplate",
+  "name": "cards-rarity",
+  "version": "0.0.1",
+  "description": "Get the rarity level of Cards (0xadventures.com) item",
+  "author": "Jose Aguinaga <me@jjperezaguinaga.com>",
+  "repository": "https://github.com/jjperezaguinaga/cards-rarity",
   "license": "MIT",
   "keywords": [
-    "typescript",
-    "boilerplate",
-    "esbuild"
+    "cards",
+    "rarity"
   ],
   "main": "./dist/tsc/main.js",
   "types": "./dist/tsc/main.d.ts",
