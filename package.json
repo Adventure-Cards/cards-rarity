@@ -1,6 +1,6 @@
 {
   "name": "cards-rarity",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get the rarity level of Cards (0xadventures.com) item",
   "author": "Jose Aguinaga <me@jjperezaguinaga.com>",
   "repository": "https://github.com/jjperezaguinaga/cards-rarity",
