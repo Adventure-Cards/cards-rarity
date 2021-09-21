@@ -1,4 +1,7 @@
 #!/usr/bin/env node
-import { foo } from './main'
+import decks from './constants/decks.json';
+import { rarityStats, Decks } from './lib/rarity';
 
-foo()
+const stats = rarityStats(decks as Decks)
+
+console.log(stats);
