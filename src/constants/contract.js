@@ -1,0 +1,1 @@
+export const CARDS_CONTRACT_ADDRESS = '0x329fd5e0d9aad262b13ca07c87d001bec716ed39'
