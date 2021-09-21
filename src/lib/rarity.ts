@@ -8,7 +8,11 @@ export type Decks = {
   }
 }
 
-export const rarityStats = (deck: Decks) => {
+export type ReducedDeck = {
+  [creature: string]: number;
+}
+
+export const rarityStats = (deck: Decks): ReducedDeck => {
   return [
     { label: 'Commons', items: commonCreature },
     { label: 'Rare', items: rareCreature },
